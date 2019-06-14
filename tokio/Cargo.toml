@@ -36,6 +36,7 @@ default = [
   "timer",
   "udp",
   "uds",
+  "async-await-preview",
 ]
 
 codec = ["io", "tokio-codec"]
