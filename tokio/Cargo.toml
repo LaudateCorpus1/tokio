@@ -25,7 +25,7 @@ keywords = ["io", "async", "non-blocking", "futures"]
 publish = false
 
 [features]
-async-await-preview = ["futures/nightly"]
+async-await-preview = ["futures/nightly", "tokio-futures", "tokio-macros"]
 default = [
   "codec",
   "fs",
