@@ -25,6 +25,7 @@ keywords = ["io", "async", "non-blocking", "futures"]
 publish = false
 
 [features]
+async-await-preview = ["futures/nightly"]
 default = [
   "codec",
   "fs",
@@ -36,7 +37,6 @@ default = [
   "timer",
   "udp",
   "uds",
-  "async-await-preview",
 ]
 
 codec = ["io", "tokio-codec"]
