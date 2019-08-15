@@ -11,6 +11,6 @@ macro_rules! await {
         #[allow(unused_mut)]
         let mut e = $e;
         let e = e.into_awaitable();
-        std_await!(e)
+        e.await
     }};
 }
